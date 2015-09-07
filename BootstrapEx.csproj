@@ -82,16 +82,24 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Views\buttongroup.html" />
+    <Content Include="Views\buttons.html" />
     <Content Include="Views\checks.html" />
     <Content Include="Views\codes.html" />
     <Content Include="Views\disable.html" />
     <Content Include="Views\dropdownlist.html" />
+    <Content Include="Views\firstpageexample.html" />
     <Content Include="Views\form.html" />
     <Content Include="Views\form2.html" />
+    <Content Include="Views\formfeedback.html" />
     <Content Include="Views\gridlayout.html" />
+    <Content Include="Views\images.html" />
     <Content Include="Views\Lists.html" />
+    <Content Include="Views\menu_dropdown.html" />
+    <Content Include="Views\navs.html" />
     <Content Include="Views\Paragraphs.html" />
     <Content Include="Views\table.html" />
+    <Content Include="Views\texteditortool.html" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
   </ItemGroup>
