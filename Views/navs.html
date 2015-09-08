@@ -2,19 +2,49 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title></title>
     <link rel="stylesheet" href="/Content/bootstrap.css" />
     <script src="/Scripts/jquery-1.9.1.js"></script>
     <script src="/Scripts/bootstrap.js"></script>
 </head>
 <body>
-    <ul class="nav nav-tabs">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">HTML</a></li>
-        <li><a href="#">CSS</a></li>
-        <li><a href="#">jQuery</a></li>
-        <li><a href="#">Responsive</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
+    <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <a href="##" class="navbar-brand">导航条</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown">
+                <a href="##" data-toggle="dropdown" class="dropdown-toggle">HTML<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="###">CSS3</a></li>
+                    <li><a href="###">HTML5</a></li>
+                    <li class="disabled"><a href="###">HTML4</a></li>
+                </ul>
+            </li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">jQuery</a></li>
+            <li><a href="#">Responsive</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <form action="##" class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="please input keywords" />
+            </div>
+            <button type="submit" class="btn btn-default">Search</button>
+        </form>
+    </div>
+    <br />
+    <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <a href="##" class="navbar-brand">Bootstrap</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="#" class="navbar-text">Navbar Text</a></li>
+            <li><a href="#" class="navbar-text">Navbar Text</a></li>
+            <li><a href="#" class="navbar-text">Navbar Text</a></li>
+        </ul>
+    </div>
 </body>
 </html>
